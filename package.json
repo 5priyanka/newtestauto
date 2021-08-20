@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/5priyanka/newtestauto/issues"
   },
-  "homepage": "https://github.com/5priyanka/newtestauto#readme"
+  "homepage": "https://github.com/5priyanka/newtestauto#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
