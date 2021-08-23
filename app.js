@@ -1,8 +1,8 @@
-const express = require('express')
+const express = require('express');
 const app = express();
 
-app.get('/names', (req, res) => {
-res.send("Telmo");
+app.get('/users/test', (req, res) => {
+res.send({ msg: 'testing'});
 })
 
 app.listen(5000, () => {
